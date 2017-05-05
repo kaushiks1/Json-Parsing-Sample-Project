@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VendorListViewController">
+            <connections>
+                <outlet property="collectionView1" destination="19z-sz-G6a" id="IYw-ob-lQh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="19z-sz-G6a">
+                    <rect key="frame" x="0.0" y="70" width="414" height="666"/>
+                    <animations/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Xh-gU-AAx">
+                        <size key="itemSize" width="150" height="150"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="4wY-Pm-IfD"/>
+                        <outlet property="delegate" destination="-1" id="jtZ-uL-Ubw"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnP-PO-psT">
+                    <rect key="frame" x="328" y="41" width="25" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="C60-mo-V2A"/>
+                        <constraint firstAttribute="width" constant="25" id="zvQ-0W-aR0"/>
+                    </constraints>
+                    <state key="normal" image="cross button.png"/>
+                    <connections>
+                        <action selector="clsbtnactn:" destination="-1" eventType="touchUpInside" id="9Zr-nZ-2x6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="19z-sz-G6a" firstAttribute="top" secondItem="UnP-PO-psT" secondAttribute="bottom" constant="8" id="0y1-vB-xXO"/>
+                <constraint firstItem="19z-sz-G6a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Jv-ws-lIc"/>
+                <constraint firstAttribute="bottom" secondItem="19z-sz-G6a" secondAttribute="bottom" id="9qK-fs-MLm"/>
+                <constraint firstItem="UnP-PO-psT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="328" id="Op6-KF-uKE"/>
+                <constraint firstAttribute="trailing" secondItem="19z-sz-G6a" secondAttribute="trailing" id="a16-aj-b4H"/>
+                <constraint firstAttribute="trailing" secondItem="UnP-PO-psT" secondAttribute="trailing" constant="61" id="fbY-Fq-A9s"/>
+                <constraint firstItem="UnP-PO-psT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="41" id="yIL-1b-V7W"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="114" y="7"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross button.png" width="46" height="46"/>
+    </resources>
+</document>

@@ -1,0 +1,216 @@
+{
+    "pages": [
+              {
+              "pageName": "Living",
+              "pageIcon": ".png",
+              "pageTheme": ".png",
+              "pageIndex": "1",
+              "switches": [
+                           {
+                           "switchName": "Dinning Room",
+                           "switchID": 1,
+                           "switchIcon": "dining_control_normal.png",
+                           "switchSelectedIcon": "dining_control_selected.png",
+                           "switchInterIcon": "dining_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": true,
+                           "isVirtualSwitch": false,
+                           "subSwitches": [],
+                           "Devices": [
+                                       {
+                                       "deviceName": "Table Left",
+                                       "deviceID": 1,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                       "isDeviceON":false
+                                       },
+                                       {
+                                       "deviceName": "Table Right",
+                                       "deviceID": 2,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Kitchen",
+                           "switchID": 2,
+                           "switchIcon": "kitchen_control_normal.png",
+                           "switchSelectedIcon": "kitchen_control_selected.png",
+                           "switchInterIcon": "kitchen_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": true,
+                           "isVirtualSwitch": false,
+                           "subSwitches": [],
+                           "Devices": [
+                                       {
+                                       "deviceName": "LED Light",
+                                       "deviceID": 3,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Entertaining",
+                           "switchID": 3,
+                           "switchIcon": "entertaining_control_normal.png",
+                           "switchSelectedIcon": "entertaining_control_selected.png",
+                           "switchInterIcon": "entertaining_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": true,
+                           "isVirtualSwitch": true,
+                           "subSwitches": [
+                                           {
+                                           "switchID": 2
+                                           }
+                                           ],
+                           "Devices": [
+                                       {
+                                       "deviceID": 2
+                                       },
+                                       {
+                                       "deviceName": "LED Lounge",
+                                       "deviceID": 4,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Emergency ON",
+                           "switchID": 4,
+                           "switchIcon": "entertaining_control_normal.png",
+                           "switchSelectedIcon": "entertaining_control_selected.png",
+                           "switchInterIcon": "entertaining_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": false,
+                           "isVirtualSwitch": true,
+                           "subSwitches": [
+                                           {
+                                           "switchID": 1
+                                           },
+                                           {
+                                           "switchID": 2
+                                           },
+                                           {
+                                           "switchID": 3
+                                           },
+                                           {
+                                           "switchID": 5
+                                           },
+                                           {
+                                           "switchID": 6
+                                           },
+                                           {
+                                           "switchID": 7
+                                           },
+                                           {
+                                           "switchID": 8
+                                           }
+                                           ],
+                           "Devices": []
+                           }
+                           ]
+              },
+              {
+              "pageName": "Bedrooms",
+              "pageIcon": ".png",
+              "pageTheme": ".png",
+              "pageIndex": "2",
+              "switches": [
+                           {
+                           "switchName": "Bedroom 1",
+                           "switchID": 5,
+                           "switchIcon": "bedroom_control_normal.png",
+                           "switchSelectedIcon": "bedroom_control_selected.png",
+                           "switchInterIcon": "bedroom_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": true,
+                           "isVirtualSwitch": false,
+                           "subSwitches": [],
+                           "Devices": [
+                                       {
+                                       "deviceName": "LED Light",
+                                       "deviceID": 5,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Bedroom 2",
+                           "switchID": 6,
+                           "switchIcon": "bedroom1_control_normal.png",
+                           "switchSelectedIcon": "bedroom1_control_selected.png",
+                           "switchInterIcon": "bedroom1_inter.png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": true,
+                           "isVirtualSwitch": false,
+                           "subSwitches": [],
+                           "Devices": [
+                                       {
+                                       "deviceName": "LED Light",
+                                       "deviceID": 6,
+                                       "isLEDDevice": true,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Ensuite 2 Fan",
+                           "switchID": 7,
+                           "switchIcon": ".png",
+                           "switchSelectedIcon": ".png",
+                           "switchInterIcon": ".png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": false,
+                           "isVirtualSwitch": false,
+                           "subSwitches": [],
+                           "Devices": [
+                                       {
+                                       "deviceName": "Fan",
+                                       "deviceID": 7,
+                                       "isLEDDevice":false,
+                                       "deviceBrightness": 0.0,
+                                        "isDeviceON":false
+                                       }
+                                       ]
+                           },
+                           {
+                           "switchName": "Night Lights",
+                           "switchID": 8,
+                           "switchIcon": ".png",
+                           "switchSelectedIcon": ".png",
+                           "switchInterIcon": ".png",
+                           "switchStatus": "0",
+                           "switchBrightness": 0.0,
+                           "isLEDSwitch": false,
+                           "isVirtualSwitch": true,
+                           "subSwitches": [
+                                           {
+                                           "switchID": 7
+                                           }
+                                           ],
+                           "Devices": [
+                                       {
+                                       "deviceID": 4
+                                       }
+                                       ]
+                           }
+                           ]
+              }
+              ]
+}
